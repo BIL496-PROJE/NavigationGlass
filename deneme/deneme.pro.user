@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.6.0, 2018-04-18T05:19:42. -->
+<!-- Written by QtCreator 4.6.0, 2018-05-07T17:00:55. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -315,7 +315,7 @@
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.DeployConfigurationCount">1</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.PluginSettings">
-    <value type="QString" key="AndroidDeviceSerialNumber">86cede1e</value>
+    <value type="QString" key="AndroidDeviceSerialNumber">52103067b85c6449</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.0">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
@@ -361,8 +361,8 @@
     <valuelist type="QVariantList" key="Android.PostFinishShellCmdListKey"/>
     <valuelist type="QVariantList" key="Android.PreStartShellCmdListKey"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">deneme</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">2</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.AndroidRunConfiguration:C:/Users/Gulzada/Desktop/qt/deneme/deneme.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.AndroidRunConfiguration:C:/Users/Gulzada/Desktop/Proje/qt/deneme/deneme.pro</value>
     <value type="QString" key="QMakeProjectManager.QmakeAndroidRunConfiguration.ProFile">deneme.pro</value>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>

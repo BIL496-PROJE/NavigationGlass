@@ -25,15 +25,8 @@ void MainWindow::on_on_clicked(){
     socket->write(qs.toLocal8Bit()+"*");
 }
 
-
-void MainWindow::on_lineEdit_returnPressed()
-{
-
-}
-
 void MainWindow::on_pushButton_clicked()
 {
-
     secdialog=new SecDialog(this,socket);
     secdialog->setGeometry(0,0,1100,2500);
     secdialog->show();

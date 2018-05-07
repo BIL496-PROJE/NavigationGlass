@@ -9,8 +9,6 @@
 #include "secdialog.h"
 
 
-
-
 namespace Ui {
 class MainWindow;
 }
@@ -27,20 +25,12 @@ public:
 
 
 private slots:
-    void on_find_clicked();
-
     void on_on_clicked();
-
-
-    void on_lineEdit_returnPressed();
-
-
     void on_pushButton_clicked();
 
 private:
     Ui::MainWindow *ui;
     SecDialog *secdialog;
-    //QBluetoothDeviceDiscoveryAgent *agent = new QBluetoothDeviceDiscoveryAgent;
     QBluetoothSocket *socket;
     QString string;
    bool k = false;

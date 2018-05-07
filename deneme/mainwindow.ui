@@ -28,7 +28,7 @@
     <item>
      <widget class="QPushButton" name="on">
       <property name="text">
-       <string>on</string>
+       <string>send</string>
       </property>
      </widget>
     </item>
