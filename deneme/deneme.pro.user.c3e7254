@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.6.0, 2018-05-14T14:43:08. -->
+<!-- Written by QtCreator 4.6.0, 2018-05-07T17:00:55. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -362,7 +362,7 @@
     <valuelist type="QVariantList" key="Android.PreStartShellCmdListKey"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">deneme</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.AndroidRunConfiguration:C:/Users/Gulzada/Downloads/deneme/deneme.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.AndroidRunConfiguration:C:/Users/Gulzada/Desktop/Proje/qt/deneme/deneme.pro</value>
     <value type="QString" key="QMakeProjectManager.QmakeAndroidRunConfiguration.ProFile">deneme.pro</value>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>

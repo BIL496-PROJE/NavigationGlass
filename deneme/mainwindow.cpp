@@ -20,15 +20,22 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::on_on_clicked(){
-    QString qs=ui->lineEdit->text();
-    socket->write(qs.toLocal8Bit()+"*");
-}
-
-void MainWindow::on_pushButton_clicked()
+/**bluetooth listesi icin acilan sayfa*/
+void MainWindow::on_bluetooth_connection_button_clicked()
 {
     secdialog=new SecDialog(this,socket);
     secdialog->setGeometry(0,0,1100,2500);
     secdialog->show();
+}
+
+/*adrese git butonu*/
+void MainWindow::on_adrese_git_butonu_clicked()
+{
+    QString qs=ui->lineEdit->text();
+    socket->write(qs.toLocal8Bit()+"*");
+}
+/*konum izle butonu icin*/
+void MainWindow::on_konum_izle_butonu_clicked()
+{
 
 }

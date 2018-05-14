@@ -8,7 +8,6 @@
 #include<QListWidget>
 #include "secdialog.h"
 
-
 namespace Ui {
 class MainWindow;
 }
@@ -25,8 +24,12 @@ public:
 
 
 private slots:
-    void on_on_clicked();
-    void on_pushButton_clicked();
+
+    void on_bluetooth_connection_button_clicked(); /**bluetooth listesi icin acilan sayfa*/
+
+    void on_adrese_git_butonu_clicked(); /*adrese git butonu*/
+
+    void on_konum_izle_butonu_clicked(); /*konum izle butonu icin*/
 
 private:
     Ui::MainWindow *ui;

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>505</width>
     <height>480</height>
    </rect>
   </property>
@@ -14,25 +14,32 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
-     <widget class="QPushButton" name="pushButton">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="0">
+     <widget class="QPushButton" name="konum_izle_butonu">
       <property name="text">
-       <string>Connect</string>
+       <string>Konum İzle</string>
       </property>
      </widget>
     </item>
-    <item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="bluetooth_connection_button">
+      <property name="text">
+       <string>Gözlüğe Bağlan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
      <widget class="QLineEdit" name="lineEdit"/>
     </item>
-    <item>
-     <widget class="QPushButton" name="on">
+    <item row="2" column="0">
+     <widget class="QPushButton" name="adrese_git_butonu">
       <property name="text">
-       <string>send</string>
+       <string>Adrese Git</string>
       </property>
      </widget>
     </item>
-    <item>
+    <item row="4" column="0">
      <widget class="QListWidget" name="listWidget"/>
     </item>
    </layout>
